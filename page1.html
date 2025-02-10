@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 1 - Contact Me</title>
+  <style>
+
+    body {
+      background-color: #f0f8ff; 
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+
+    label {
+      font-size: 1.2em;
+    }
+    
+
+    .input-container {
+      margin: 20px 0;
+    }
+    
+
+    .input-container input {
+      padding: 8px;
+      margin: 5px 0 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+
+    button[type="submit"] {
+      background-color: #4CAF50; 
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    
+
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>INST377 - Lab 2 - Contact Me</h1>
+  
+
+  <form action="page2.html" method="post">
+    <div class="input-container">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username" placeholder="Enter your Username" required>
+      <br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
